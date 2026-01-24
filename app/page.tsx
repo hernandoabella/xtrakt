@@ -3,28 +3,27 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import {
-  ChevronDown,
-  Activity,
-  ShoppingCart,
-  X,
-  ChevronLeft,
-  ChevronRight,
-  ShieldCheck
+import { 
+  ChevronDown, 
+  Activity, 
+  ShoppingCart, 
+  X, 
+  ChevronLeft, 
+  ChevronRight, 
+  ShieldCheck 
 } from "lucide-react";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
 
-// Definimos la interfaz para nuestros productos
 interface Product {
   name: string;
   price: string;
   src: string;
 }
 
-export default function Nand15UltimateExperience() {
+export default function Nand15StableExperience() {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,33 +54,54 @@ export default function Nand15UltimateExperience() {
 
   useEffect(() => {
     let ctx = gsap.context(() => {
-      const tl = gsap.timeline({ onComplete: () => setIsLoading(false) });
+      // Loader Timeline
+      const tl = gsap.timeline({ 
+        onComplete: () => {
+          setIsLoading(false);
+          // Forzamos el refresco de ScrollTrigger una vez el loader se va
+          ScrollTrigger.refresh();
+        } 
+      });
 
       tl.set(loaderLogo2.current, { display: "none", opacity: 0 })
-        .to(loaderLogo1.current, { opacity: 1, duration: 0.8 })
-        .to(loaderLogo1.current, { x: 15, skewX: 20, duration: 0.05, repeat: 10, yoyo: true })
+        .to(loaderLogo1.current, { opacity: 1, duration: 0.5 })
+        .to(loaderLogo1.current, { x: 10, skewX: 10, duration: 0.05, repeat: 5, yoyo: true })
         .set(loaderLogo1.current, { display: "none" })
         .set(loaderLogo2.current, { display: "block" })
-        .to(loaderLogo2.current, { opacity: 1, scale: 1.1, duration: 0.4 })
-        .to(loaderLogo2.current, { rotation: 360, duration: 1.5, ease: "expo.inOut" })
-        .to(loaderLogo2.current, { scale: 20, opacity: 0, duration: 0.8, ease: "power4.in" })
-        .to(loaderRef.current, { opacity: 0, pointerEvents: "none", duration: 0.5 });
-
-      if (!isLoading) {
-        gsap.from(".hero-el", { y: 40, opacity: 0, stagger: 0.2, duration: 1, ease: "power3.out" });
-        gsap.from(".gallery-item", {
-          scrollTrigger: { trigger: galleryRef.current, start: "top 85%" },
-          y: 60, opacity: 0, stagger: 0.05, duration: 0.8, ease: "power2.out"
+        .to(loaderLogo2.current, { opacity: 1, scale: 1.1, duration: 0.3 })
+        .to(loaderLogo2.current, { rotation: 360, duration: 1, ease: "expo.inOut" })
+        .to(loaderRef.current, { 
+          yPercent: -100, 
+          duration: 0.8, 
+          ease: "expo.inOut" 
         });
-      }
-    }, containerRef);
-    return () => ctx.revert();
-  }, [isLoading]);
 
-  // Funciones con Tipado TypeScript
+      // Animaciones de la galería (siempre activas)
+      gsap.from(".gallery-item", {
+        scrollTrigger: {
+          trigger: galleryRef.current,
+          start: "top 90%",
+        },
+        y: 30,
+        opacity: 0,
+        stagger: 0.05,
+        duration: 0.6,
+        ease: "power2.out"
+      });
+    }, containerRef);
+    
+    return () => ctx.revert();
+  }, []);
+
   const openLightbox = (index: number) => {
     setCurrentIndex(index);
     setSelectedImg(products[index].src);
+    document.body.style.overflow = "hidden"; // Bloquear scroll
+  };
+
+  const closeLightbox = () => {
+    setSelectedImg(null);
+    document.body.style.overflow = "auto"; // Liberar scroll
   };
 
   const nextImg = (e: React.MouseEvent) => {
@@ -99,111 +119,101 @@ export default function Nand15UltimateExperience() {
   };
 
   return (
-    <main ref={containerRef} className="bg-[#050505] text-white min-h-screen">
+    <main ref={containerRef} className="bg-[#050505] text-white min-h-screen relative">
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;700&display=swap');
         .font-cosmic { font-family: 'Orbitron', sans-serif; letter-spacing: 0.2em; }
         body { font-family: 'Inter', sans-serif; overflow-x: hidden; background: #050505; }
       `}</style>
 
-      {/* LOADER */}
-      {isLoading && (
-        <div ref={loaderRef} className="fixed inset-0 z-[9999] bg-black flex items-center justify-center">
-          <div className="relative">
-            <img ref={loaderLogo1} src="/logo.png" className="w-48 opacity-0" alt="L1" />
-            <img ref={loaderLogo2} src="/logo2.png" className="w-48 hidden" alt="L2" />
+      {/* LOADER (Overlay) */}
+      <div ref={loaderRef} className="fixed inset-0 z-[9999] bg-black flex items-center justify-center pointer-events-auto">
+        <div className="relative">
+          <img ref={loaderLogo1} src="/logo.png" className="w-40 opacity-0" alt="L1" />
+          <img ref={loaderLogo2} src="/logo2.png" className="w-40 hidden" alt="L2" />
+        </div>
+        <div className="absolute bottom-10 font-cosmic text-[8px] text-zinc-700 animate-pulse tracking-[1em]">SYSTEM_READY</div>
+      </div>
+
+      {/* CONTENIDO PRINCIPAL */}
+      <div className={isLoading ? "opacity-0" : "opacity-100 transition-opacity duration-1000"}>
+        {/* HERO */}
+        <section className="h-screen flex flex-col items-center justify-center relative overflow-hidden">
+          <div className="absolute opacity-[0.02] font-cosmic text-[20vw] select-none pointer-events-none uppercase italic">Nand15</div>
+          <img src="/logo.png" className="w-64 md:w-[380px] z-10" alt="Brand" />
+          <div className="mt-8 flex flex-col items-center gap-4">
+            <h1 className="font-cosmic text-[9px] text-zinc-600 uppercase tracking-[1em]">Traveling on the Space</h1>
           </div>
-          <div className="absolute bottom-10 font-cosmic text-[9px] text-zinc-600 animate-pulse uppercase tracking-[1em]">Establishing_Connection</div>
-        </div>
-      )}
+          <ChevronDown className="absolute bottom-10 animate-bounce text-zinc-900" />
+        </section>
 
-      {/* HERO */}
-      <section className="h-screen flex flex-col items-center justify-center relative overflow-hidden">
-        <div className="absolute opacity-[0.02] font-cosmic text-[20vw] select-none pointer-events-none uppercase italic">Nand15</div>
-        <img src="/logo.png" className="hero-el w-64 md:w-[400px] z-10" alt="Brand" />
-        <div className="hero-el mt-8 flex flex-col items-center gap-4">
-          <h1 className="font-cosmic text-[10px] md:text-xs text-zinc-500 uppercase tracking-[1em]">Traveling on the Space</h1>
-        </div>
-        <ChevronDown className="absolute bottom-10 animate-bounce text-zinc-800" />
-      </section>
+        {/* GALLERY */}
+        <section ref={galleryRef} className="max-w-[1400px] mx-auto px-6 py-20">
+          <div className="mb-16 border-b border-zinc-900 pb-8">
+            <h2 className="font-cosmic text-4xl md:text-6xl font-black opacity-10 italic uppercase">Archives</h2>
+          </div>
 
-      {/* GALLERY */}
-      <section ref={galleryRef} className="max-w-[1400px] mx-auto px-6 py-20">
-        <div className="mb-20 border-b border-zinc-900 pb-10">
-          <h2 className="font-cosmic text-5xl md:text-7xl font-black opacity-10 italic uppercase">Archives</h2>
-          <p className="font-cosmic text-[9px] text-zinc-600 mt-2 tracking-[0.4em]">SYSTEM_DATA // 015_ITEMS</p>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-          {products.map((item, idx) => (
-            <div
-              key={idx}
-              onClick={() => openLightbox(idx)}
-              className="gallery-item group relative aspect-[3/4] bg-zinc-900 cursor-zoom-in overflow-hidden rounded-sm border border-white/5 hover:border-white/20 transition-all duration-500"
-            >
-              <img
-                src={item.src}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                alt={item.name}
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
-                <span className="font-cosmic text-[8px] text-zinc-400 uppercase">{item.name}</span>
-                <div className="flex justify-between items-center">
-                  <span className="font-bold text-sm">{item.price}</span>
-                  <ShoppingCart size={16} className="text-white hover:scale-110 transition-transform" />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {products.map((item, idx) => (
+              <div 
+                key={idx} 
+                onClick={() => openLightbox(idx)}
+                className="gallery-item group relative aspect-[3/4] bg-zinc-900 cursor-zoom-in overflow-hidden rounded-sm border border-white/5 hover:border-white/20 transition-all duration-300"
+              >
+                <img 
+                  src={item.src} 
+                  className="w-full h-full object-cover" 
+                  alt={item.name}
+                  loading="eager" 
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+                  <span className="font-cosmic text-[8px] text-zinc-400 uppercase">{item.name}</span>
+                  <div className="flex justify-between items-center">
+                    <span className="font-bold text-sm">{item.price}</span>
+                    <ShoppingCart size={16} className="text-white" />
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
 
-      {/* LIGHTBOX / FULLSCREEN VIEWER */}
+        <footer className="py-20 text-center opacity-10">
+          <p className="font-cosmic text-[7px] tracking-[1.5em] uppercase">Nand15 Studio // 2026</p>
+        </footer>
+      </div>
+
+      {/* LIGHTBOX */}
       {selectedImg && (
-        <div
-          className="fixed inset-0 z-[10000] bg-black/95 flex items-center justify-center p-4 md:p-10 backdrop-blur-xl"
-          onClick={() => setSelectedImg(null)}
+        <div 
+          className="fixed inset-0 z-[10000] bg-black/95 flex items-center justify-center p-4 backdrop-blur-md"
+          onClick={closeLightbox}
         >
-          {/* Botón Cerrar */}
-          <button className="absolute top-10 right-10 text-white/50 hover:text-white transition-colors z-50">
-            <X size={40} strokeWidth={1} />
+          <button className="absolute top-6 right-6 text-white/50 hover:text-white transition-colors z-50">
+            <X size={32} />
           </button>
 
-          {/* Flecha Izquierda */}
-          <button
-            onClick={prevImg}
-            className="absolute left-4 md:left-10 p-4 bg-white/5 hover:bg-white/10 rounded-full transition-all z-50"
-          >
-            <ChevronLeft size={30} />
+          <button onClick={prevImg} className="absolute left-4 p-3 bg-white/5 hover:bg-white/10 rounded-full z-50">
+            <ChevronLeft size={24} />
           </button>
 
-          {/* Imagen Grande */}
-          <div className="relative max-w-5xl max-h-[85vh] w-full h-full flex flex-col items-center justify-center">
-            <img
-              src={selectedImg}
-              className="max-w-full max-h-full object-contain shadow-[0_0_50px_rgba(0,0,0,0.5)] transition-all duration-300"
-              alt="Fullscreen"
+          <div className="relative max-w-4xl max-h-[80vh] flex flex-col items-center">
+            <img 
+              src={selectedImg} 
+              className="max-w-full max-h-full object-contain"
+              alt="View"
             />
-            <div className="mt-8 text-center">
-              <p className="font-cosmic text-xs text-white uppercase tracking-[0.5em]">{products[currentIndex].name}</p>
-              <p className="font-bold text-zinc-500 mt-2">{products[currentIndex].price}</p>
+            <div className="mt-6 text-center">
+              <p className="font-cosmic text-[10px] text-white uppercase tracking-widest">{products[currentIndex].name}</p>
+              <p className="font-bold text-zinc-500">{products[currentIndex].price}</p>
             </div>
           </div>
 
-          {/* Flecha Derecha */}
-          <button
-            onClick={nextImg}
-            className="absolute right-4 md:right-10 p-4 bg-white/5 hover:bg-white/10 rounded-full transition-all z-50"
-          >
-            <ChevronRight size={30} />
+          <button onClick={nextImg} className="absolute right-4 p-3 bg-white/5 hover:bg-white/10 rounded-full z-50">
+            <ChevronRight size={24} />
           </button>
         </div>
       )}
-
-      <footer className="py-32 text-center opacity-20">
-        <img src="/logo2.png" className="w-16 mx-auto mb-6 grayscale" alt="Footer Logo" />
-        <p className="font-cosmic text-[7px] tracking-[1.5em] uppercase">Nand15 Studio // 2026</p>
-      </footer>
     </main>
   );
 }
