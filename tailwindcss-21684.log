@@ -154,3 +154,572 @@
 2026-01-24T21:12:15.175932Z  INFO get_files: tailwindcss_oxide::scanner: exit
 2026-01-24T21:12:15.176196Z  INFO get_globs: tailwindcss_oxide::scanner: enter
 2026-01-24T21:12:15.176210Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.676493Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.678071Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:31:19.678309Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:31:19.701214Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:31:19.701888Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.701900Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.701906Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.701909Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:31:19.701997Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:31:19.702008Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.702012Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.702016Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.702256Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.702280Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.702605Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.702917Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.702925Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.703982Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:31:19.704518Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:31:19.704859Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.704941Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:19.705015Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:19.705021Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.193355Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.195055Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:31:22.195405Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:31:22.195984Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:31:22.196555Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.196567Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.196572Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.196576Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:31:22.196644Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:31:22.196654Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.196659Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.196663Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.196849Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.196865Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.196971Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.197228Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.197235Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.198354Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:31:22.198925Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:31:22.199286Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.199362Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:31:22.199436Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:31:22.199442Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.919279Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.920621Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:34:38.920833Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:34:38.921330Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:34:38.921729Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.921741Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.921746Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.921749Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:34:38.921822Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:34:38.921835Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.921840Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.921843Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.922065Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.922078Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.922292Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.922571Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.922578Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.923728Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:34:38.924269Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:34:38.924666Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.924744Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:34:38.924824Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:34:38.924831Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.908680Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.910079Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:48:18.910304Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:48:18.910719Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:48:18.910960Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:48:18.911382Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.911395Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.911401Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.911405Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:48:18.911470Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:48:18.911480Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.911485Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.911488Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.912707Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.912720Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.912916Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.913175Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.913181Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.914552Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:48:18.915065Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:48:18.915247Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:48:18.915642Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.915769Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:48:18.915850Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:48:18.915857Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.463031Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.465357Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:50:15.465573Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:50:15.465954Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:50:15.466139Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:50:15.466601Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.466612Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.466617Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.466620Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:50:15.466687Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:50:15.466766Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.466771Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.466774Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.467600Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.467610Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.467731Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.468038Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.468047Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.469208Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:50:15.469764Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:50:15.469966Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:50:15.470352Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.470436Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:50:15.470504Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:50:15.470509Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.632626Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.633912Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:53:24.634175Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:53:24.634603Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:53:24.634818Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:53:24.635273Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.635285Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.635291Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.635294Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:53:24.635370Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:53:24.635381Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.635385Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.635388Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.636072Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.636087Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.636197Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.636497Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.636505Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.637991Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:53:24.638577Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:53:24.638776Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:53:24.639290Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.639398Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:53:24.639484Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:53:24.639490Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.136383Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.137647Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:56:06.137866Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:56:06.138262Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:56:06.138453Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:56:06.138844Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.138853Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.138858Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.138890Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:56:06.138960Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:56:06.138972Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.138976Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.138980Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.139238Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.139261Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.139332Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.139694Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.139708Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.141187Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:56:06.141967Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:56:06.142154Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:56:06.142556Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.142641Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:06.142709Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:06.142715Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.542615Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.544569Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:56:08.544836Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:56:08.545397Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:56:08.545702Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:56:08.546270Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.546285Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.546291Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.546294Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:56:08.546375Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:56:08.546387Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.546392Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.546396Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.547108Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.547122Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.547223Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.547532Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.547541Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.548757Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:56:08.549313Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:56:08.549501Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:56:08.549901Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.549980Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:08.550055Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:08.550062Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.281401Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.283206Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:56:15.283424Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:56:15.283812Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:56:15.284005Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:56:15.284421Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.284431Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.284436Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.284439Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:56:15.284502Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:56:15.284512Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.284517Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.284520Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.285076Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.285091Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.285184Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.285582Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.285593Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.286766Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:56:15.287286Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:56:15.287522Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:56:15.287949Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.288042Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:56:15.288106Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:56:15.288113Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.479722Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.481203Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:57:11.481414Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:57:11.481786Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:57:11.481973Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:57:11.482379Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.482389Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.482394Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.482397Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:57:11.482500Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:57:11.482518Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.482526Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.482530Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.482697Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.482710Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.482890Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.483232Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.483241Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.484355Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:57:11.484882Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:57:11.485067Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:57:11.485475Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.485675Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:57:11.485725Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:57:11.485730Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.134098Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.135386Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:58:25.135586Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:58:25.136497Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:58:25.136707Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:58:25.137190Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.137201Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.137207Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.137211Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:58:25.137288Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:58:25.137300Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.137305Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.137309Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.137499Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.137511Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.138129Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.138447Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.138456Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.139524Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:58:25.140073Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:58:25.140256Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:58:25.140638Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.140764Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:25.140833Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:25.140841Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.858843Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.860262Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:58:40.860478Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:58:40.860869Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:58:40.861084Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:58:40.861504Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.861515Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.861520Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.861524Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:58:40.861596Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:58:40.861616Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.861620Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.861624Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.861952Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.861967Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.862084Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.862444Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.862454Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.863673Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:58:40.864401Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:58:40.864593Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:58:40.864985Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.865139Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:58:40.865222Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:58:40.865229Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.501112Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.502694Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:59:21.503008Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:59:21.503400Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:59:21.503675Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:59:21.504176Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.504197Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.504205Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.504210Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T21:59:21.504328Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T21:59:21.504345Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.504352Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.504385Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.504923Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.504943Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.505077Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.505657Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.505671Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.507180Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T21:59:21.507985Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T21:59:21.508194Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T21:59:21.508626Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.508768Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T21:59:21.508895Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T21:59:21.508907Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.775687Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.776869Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:00:53.777067Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:00:53.777432Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:00:53.777618Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:00:53.778006Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.778015Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.778020Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.778023Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:00:53.778083Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:00:53.778092Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.778096Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.778100Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.778699Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.778709Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.778837Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.779146Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.779153Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.780344Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:00:53.781035Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:00:53.781226Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:00:53.781615Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.781692Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:00:53.781753Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:00:53.781759Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.873874Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.875091Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:02:13.875291Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:02:13.875662Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:02:13.875849Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:02:13.876241Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.876250Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.876255Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.876258Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:02:13.876321Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:02:13.876331Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.876335Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.876339Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.876523Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.876548Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.876736Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.877037Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.877044Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.878155Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:02:13.878725Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:02:13.878908Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:02:13.879293Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.879388Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:02:13.879483Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:02:13.879493Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.235899Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.237378Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:07:52.237608Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:07:52.238163Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:07:52.238451Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:07:52.238993Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.239005Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.239011Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.239015Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:07:52.239093Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:07:52.239104Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.239108Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.239112Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.239415Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.239435Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.239562Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.240060Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.240076Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.241494Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:07:52.242081Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:07:52.242271Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:07:52.242663Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.242767Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:52.242849Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:52.242856Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.908350Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.909529Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:07:56.909731Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:07:56.910104Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:07:56.910296Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:07:56.910687Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.910697Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.910702Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.910705Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:07:56.910770Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:07:56.910780Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.910784Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.910788Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.910981Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.910990Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.911117Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.911530Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.911539Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.912531Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:07:56.913063Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:07:56.913248Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:07:56.913634Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.913790Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:07:56.913856Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:07:56.913863Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.650346Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.651562Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:09:20.651766Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:09:20.652188Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:09:20.652398Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:09:20.652816Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.652826Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.652831Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.652835Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:09:20.652911Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:09:20.652921Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.652926Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.652930Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.653141Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.653150Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.653252Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.653569Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.653576Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.654785Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:09:20.655317Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:09:20.655501Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:09:20.655880Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.655975Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:20.656040Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:20.656045Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.869626Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.871076Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:09:57.871297Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:09:57.871674Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:09:57.871871Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:09:57.872283Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.872293Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.872298Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.872301Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:09:57.872377Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:09:57.872391Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.872396Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.872400Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.872689Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.872707Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.872935Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.873341Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.873353Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.874788Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:09:57.875360Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:09:57.875564Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:09:57.876093Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.876238Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:09:57.876346Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:09:57.876353Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.189251Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.190833Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:10:05.191085Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:10:05.191596Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:10:05.191838Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:10:05.192611Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.192628Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.192634Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.192637Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:10:05.192759Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:10:05.192771Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.192775Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.192780Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.193157Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.193175Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.193265Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.193717Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.193727Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.195116Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:10:05.195807Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:10:05.196021Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:10:05.196423Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.196546Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:05.196634Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:05.196640Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.877826Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.879264Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:10:06.879490Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:10:06.879886Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:10:06.880081Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:10:06.880575Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.880592Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.880598Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.880602Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:10:06.880727Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:10:06.880745Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.880750Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.880755Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.881162Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.881179Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.881266Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.881732Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.881744Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.883164Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:10:06.883933Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:10:06.884124Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:10:06.884527Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.884652Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:10:06.884751Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:10:06.884757Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.107357Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.108679Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:22:08.108894Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:22:08.109283Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:22:08.109478Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:22:08.109901Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.109911Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.109916Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.109920Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:22:08.109987Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:22:08.109998Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.110003Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.110007Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.110184Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.110201Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.110333Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.110751Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.110763Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.111882Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:22:08.112440Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:22:08.112631Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:22:08.113025Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.113154Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:08.113246Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:08.113253Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.432003Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.433365Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:22:51.433590Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:22:51.434034Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:22:51.434264Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:22:51.434937Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.434959Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.434965Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.434969Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-24T22:22:51.435106Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "G:\\GitHub\\nand15-website\\app\\page.tsx"
+2026-01-24T22:22:51.435132Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.435141Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.435147Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.435385Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.435402Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.435513Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.435861Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.435871Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.437329Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\app"
+2026-01-24T22:22:51.437997Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public"
+2026-01-24T22:22:51.438356Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "G:\\GitHub\\nand15-website\\public\\gallery"
+2026-01-24T22:22:51.438896Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.439009Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-24T22:22:51.439108Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-24T22:22:51.439115Z  INFO get_globs: tailwindcss_oxide::scanner: exit
