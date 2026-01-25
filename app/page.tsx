@@ -167,7 +167,7 @@ export default function Nand15StableExperience() {
         {/* GALLERY SECTION */}
         <section ref={gallerySectionRef} className="max-w-[1400px] mx-auto px-6 py-20">
           <div className="mb-16 border-b border-zinc-900 pb-8">
-            <h2 className="font-cosmic text-4xl md:text-6xl font-black opacity-10 italic uppercase">Archives</h2>
+            <h2 className="font-cosmic text-4xl md:text-6xl font-black opacity-10 italic uppercase">Catalog</h2>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
