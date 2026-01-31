@@ -1,11 +1,10 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import Loader from "./components/Loader";
 import Hero from "./components/Hero";
 import ManifestoScroll from "./components/ManifestoScroll";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 export default function Page() {
   
@@ -20,7 +19,7 @@ export default function Page() {
       >
         {/* Secciones de la Web */}
         <Hero />
-
+        <About />
         <ManifestoScroll />
 
         <div id="catalog-section">
